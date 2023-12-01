@@ -9,12 +9,20 @@ github.com/gocql/gocql/internal/streams
 github.com/golang/glog
 github.com/golang/glog/internal/logsink
 github.com/golang/glog/internal/stackdump
-# github.com/golang/snappy v0.0.3
+# github.com/golang/snappy v0.0.4
 ## explicit
 github.com/golang/snappy
 # github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed
 ## explicit
 github.com/hailocab/go-hostpool
+# github.com/scylladb/go-reflectx v1.0.1
+## explicit
+github.com/scylladb/go-reflectx
+# github.com/scylladb/gocqlx/v2 v2.8.0
+## explicit; go 1.17
+github.com/scylladb/gocqlx/v2
+github.com/scylladb/gocqlx/v2/migrate
+github.com/scylladb/gocqlx/v2/qb
 # gopkg.in/inf.v0 v0.9.1
 ## explicit
 gopkg.in/inf.v0

@@ -21,8 +21,7 @@ func main() {
 	time.Local = time.UTC
 	glog.V(2).Infof("set global timezone to UTC")
 
-	c := gocql.NewCluster("127.0.0.1:9042", "127.0.0.2:9042")
-	session, err := c.CreateSession()
+	session, err := gocql.NewCluster("127.0.0.1:9042").CreateSession()
 	if err != nil {
 		glog.Exitf("create session failed: %v", err)
 	}
