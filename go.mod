@@ -6,7 +6,7 @@ replace github.com/gocql/gocql => github.com/scylladb/gocql v1.11.1
 
 require (
 	github.com/gocql/gocql v1.11.1
-	github.com/golang/glog v1.1.2
+	github.com/golang/glog v1.2.5
 	github.com/scylladb/gocqlx/v2 v2.8.0
 )
 
